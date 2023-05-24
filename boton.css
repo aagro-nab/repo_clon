@@ -2,16 +2,23 @@
     background-color: rgb(213, 228, 255);
 }
 
+#word{
+    display: block;
+    width: 4rem;
+    margin: auto;
+    margin-top: 9rem;
+    color:rgb(125, 170, 255);
+}
+
 .boton{
-    display: absolute;
+    display:block;
     width: 5rem;
     height: 5rem;
     margin: auto;
-    margin-top: 10rem;
-    text-align: center;
-    padding: 80px;
+    margin-top: 2rem;
+    padding: 90px;
+    border-radius: 100%;
     background-color: rgb(168, 198, 255);
-    color:rgb(125, 170, 255);
 }
 
 .boton:active{
@@ -21,5 +28,4 @@
 
 .boton:hover{
     background-color: rgb(116, 165, 255);
-    color:rgb(203, 221, 255);
 }
