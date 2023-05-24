@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(213, 228, 255);
+}
+
+.boton{
+    display: absolute;
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+    margin-top: 10rem;
+    text-align: center;
+    padding: 80px;
+    background-color: rgb(168, 198, 255);
+    color:rgb(125, 170, 255);
+}
+
+.boton:active{
+    transform:scale(0.7);
+    background-color: rgb(87, 146, 255);
+}
+
+.boton:hover{
+    background-color: rgb(116, 165, 255);
+    color:rgb(203, 221, 255);
+}
